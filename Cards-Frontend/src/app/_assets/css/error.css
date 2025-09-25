@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+}
+.page {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.failText {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #db5356;
+	gap: 1vw;
+}
+
+.failText img {
+	height: 2vw;
+	width: auto;
+}
+
+.failText h1 {
+	font-family: Brick_Pixel, 'sans-serif';
+	font-size: 2vw;
+}
+
+.text {
+	font-family: Brick_Pixel, 'sans-serif';
+	color: #f4f4f4;
+	font-size: 1vw;
+	margin-top: 0.2vh;
+}
+
+.btn {
+	display: flex;
+	background-color: #fe3989;
+	gap: 1.5vw;
+	margin: 0.5vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	border-radius: 0.5vw;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 3vw;
+	margin-top: 5vh;
+}
+.btn p {
+	font-family: Stone_Slab;
+	font-size: 2.5vw;
+	line-height: 3vw;
+}
+.btn img {
+	height: 1.7vw;
+	width: auto;
+	vertical-align: middle;
+}

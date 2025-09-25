@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+@font-face {
+	font-family: 'Brick_Pixel';
+	src: url('../../public/fonts/Brick_Pixel.ttf');
+	font-weight: all;
+}
+
+@font-face {
+	font-family: 'Stone_Slab';
+	src: url('../../public/fonts/Stone_Slab.ttf');
+	font-weight: all;
+}
+
+@font-face {
+	font-family: 'Game_Tape';
+	src: url('../../public/fonts/Game_Tape.ttf');
+	font-weight: all;
+}

@@ -1,0 +1,41 @@
+.frame {
+	width: 338px;
+	height: 53px;
+	background-image: url('/images/LoadingFrame.svg');
+	background-size: 330px 52px;
+	background-repeat: no-repeat;
+	padding-left: 4px;
+	z-index: 3;
+}
+
+.bar {
+	background-image: url('/images/Union.png');
+	height: 45px;
+	margin-top: 7.5px;
+	margin-left: 6px;
+	background-size: 307px 38px;
+	background-repeat: no-repeat;
+	transition: width linear;
+	overflow: hidden;
+}
+
+.textbox {
+	display: inline-block;
+	width: fit-content;
+}
+
+.text1 {
+	width: 28ch;
+	overflow: hidden;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 28ch;
+	}
+}
